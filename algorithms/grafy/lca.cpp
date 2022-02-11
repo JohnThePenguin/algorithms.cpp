@@ -10,15 +10,6 @@ struct xyz
 int depth[maxx], parent[maxx], up[maxx][LOG];
 vector<xyz>g[maxx];
 
-void dfs(int v,  int setdepth){
-    depth[v] = setdepth;
-
-    pre(v);
-
-    for(auto e : g[v])
-        dfs(e.x, depth[v]+1);   
-}
-
 void pre(int& v)
 {
     up[v][0] = parent[v];
@@ -26,6 +17,15 @@ void pre(int& v)
     {
         up[v][j]=up[ up[v][j-1] ][j-1];
     }
+}
+
+void dfs(int v,  int setdepth){
+    depth[v] = setdepth;
+
+    pre(v);
+
+    for(auto e : g[v])
+        dfs(e.x, depth[v]+1);   
 }
 
 int getlca(int a, int b)
