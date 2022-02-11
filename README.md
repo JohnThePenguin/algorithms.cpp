@@ -13,12 +13,12 @@ Jakby ktoś coś chciał tu dorzucić to niech napisze do mnie gdziekolwiek.
 Zamierzam przygotować następujące kategorie, żeby szybko móc znaleźć co trzeba
 - Podstawy
 - Grafy
-- - Drzewa
+  - Drzewa
 - Teskstowe
 
 ## Pobieranie
 
-Na górze po prawej powinniście mieć coś w stylu pobrania, lub
+Na górze po prawej powinniście mieć zielone code, i tam można pobrać sobie zipa, lub
 ```bash
 wget https://github.com/JohnThePenguin/algorithms.cpp
 ``` 
