@@ -1,0 +1,17 @@
+algorytmy:
+    bin search
+    toposort
+    silne spojne skladowe
+    drzewo przedzial-przedzial
+    teoria liczb: 
+        sito,
+        nwd
+    tekstowe:
+        hashe,
+        kmp,
+        prefikso-sufiksy
+    geometria:
+        jakies podstawy
+
+inne:
+    mozna dorzucic jakies fajne snippety
