@@ -10,15 +10,21 @@ struct xyz
 int depth[maxx], parent[maxx], up[maxx][LOG];
 vector<xyz>g[maxx];
 
-void pre(int n)
+void dfs(int v,  int setdepth){
+    depth[v] = setdepth;
+
+    pre(v);
+
+    for(auto e : g[v])
+        dfs(e.x, depth[v]+1);   
+}
+
+void pre(int& v)
 {
-    for(int i=1; n>=i; i++)
+    up[v][0] = parent[v];
+    for(int j=1; LOG-1>=j; j++)
     {
-        up[i][0] = parent[i];
-        for(int j=1; LOG-1>=j; j++)
-        {
-            up[i][j]=up[ up[i][j-1] ][j-1];
-        }
+        up[v][j]=up[ up[v][j-1] ][j-1];
     }
 }
 
@@ -57,7 +63,7 @@ int main()
         g[a].pb({b,c}); parent[b]=a; depth[b]=depth[a]+1;
     }
     
-    pre(n);
+    dfs(1, 0); //dla korzenia w 1
     
     while(true)
     {
