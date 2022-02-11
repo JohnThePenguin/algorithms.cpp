@@ -5,7 +5,6 @@ typedef long long ll;
 
 constexpr int BASE = 1 << 20; //1 << <log2 MAXN>
 int tree[BASE*2];
-int modi[BASE*2];
 
 void aupdate(int v, int x){
     v += BASE;

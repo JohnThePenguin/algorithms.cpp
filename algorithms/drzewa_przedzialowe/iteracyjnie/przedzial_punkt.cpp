@@ -1,10 +1,10 @@
+//code from https://github.com/JohnThePenguin/algorithms.cpp
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 
 constexpr int BASE = 1 << 20; //1 << <log2 MAXN>
 int tree[BASE*2];
-int modi[BASE*2];
 
 ll aread(int v){
     ll w = 0;

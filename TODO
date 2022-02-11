@@ -1,8 +1,6 @@
 algorytmy:
-    bin search
     toposort
     silne spojne skladowe
-    drzewo przedzial-przedzial
     teoria liczb: 
         sito,
         nwd
