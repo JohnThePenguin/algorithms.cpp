@@ -21,9 +21,9 @@ Jakby ktoś coś chciał tu coś dorzucić to niech napisze do mnie gdziekolwiek
     - Linux ``sudo apt install git`` i ``git clone  https://github.com/JohnThePenguin/algorithms.cpp``, jako hasła użyć tokenu
     - Na Windows trzeba pobrać gita z ich strony
     
-  Gdy się zrobi/zedytuje plik/folder ``git add <nazwa>``.
-  Gdy skończy się robić jakąś konkretną rzecz można ``git commit -m "<opisać co się zrobiło>"``
-  Gdy chce się wrzucić zmiany to ``git push``
+  Gdy się zrobi/zedytuje plik/folder ``git add <nazwa>``<br />
+  Gdy skończy się robić jakąś konkretną rzecz można ``git commit -m "<opisać co się zrobiło>"``<br >
+  Gdy chce się wrzucić zmiany to ``git push``<br />
   
 
 ## Foldery
