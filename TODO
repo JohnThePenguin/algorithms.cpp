@@ -1,12 +1,6 @@
 algorytmy:
-    toposort
-    silne spojne skladowe
-    teoria liczb: 
-        sito,
-        nwd
     tekstowe:
         hashe,
-        kmp,
         prefikso-sufiksy
     geometria:
         jakies podstawy
