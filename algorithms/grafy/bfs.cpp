@@ -7,7 +7,7 @@ constexpr int MAXN = 1e6+7;//liczba wierzcholkow
 vector<int>S[MAXN];
 bool seen[MAXN];
 
-void dfs(int v){
+void bfs(int v){
     queue<int>Q;
 
     Q.push(v);
