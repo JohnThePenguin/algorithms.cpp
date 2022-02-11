@@ -1,4 +1,4 @@
-# Przydatne algorytmy C++ po OI
+# Przydatne algorytmy C++ pod OI
 
 Powrzucam tu jakieś kody algorytmów z kółek itp.
 Może się przyda na oi, też może będzie dobrze poprzypominać.
