@@ -39,7 +39,7 @@ void katsort(){
     
     sort(points.begin(), points.end(), [](P a, P b){
         if(a.p != b.p) return a.p < b.p;
-        return (product({0,0}, a, b) < 0); //if strona b do s->a to lewa to jest ok
+        return (product(Center, a, b) < 0); //if strona b do s->a to lewa to jest ok
     });                                       //jezeli > 0 to prawa -> zamiana
 }
 
